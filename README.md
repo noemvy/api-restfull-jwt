@@ -1,3 +1,34 @@
+## 🛠️ Instalación
+
+1. **Clona el repositorio:**
+
+```bash
+git clone https://github.com/noemvy/api-restfull-jwt
+cd api-restfull-jwt 
+```
+
+2. **Instala dependencias:**
+
+```bash
+npm install
+```
+
+3. **Configura el archivo `.env`:**
+
+Crea un archivo `.env` con el siguiente contenido:
+
+```env
+MONGO_URI=tu_uri_de_mongodb_atlas
+JWT_SECRET=una_clave_secreta_segura
+PORT=5000
+```
+
+4. **Ejecuta el servidor:**
+
+```bash
+npm start
+```
+
 ## 🔐 Autenticación
 
 ### ✅ Registro
